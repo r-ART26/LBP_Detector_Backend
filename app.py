@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 
 # Ruta completa al clasificador entrenado
-CASCADE_PATH = '/home/romero/Escritorio/LBPDetectorBackend/classifier/cascade.xml'
+CASCADE_PATH = '/home/romero/Descargas/cascade.xml'
 
 # Limitar hilos usados por OpenCV
 cv2.setNumThreads(2)
